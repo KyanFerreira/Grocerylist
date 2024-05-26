@@ -1,0 +1,64 @@
+.pantry {
+    border: solid black;
+    height: 50vh ;
+    background-color: pink;
+    
+    }
+    
+    .freezer {
+        border: solid black;
+        height: 50vh;
+        background-color: blue;
+    }
+    
+    h1 {
+        text-align: center;
+        color: aqua;
+        background-color: gray;
+    }
+    
+    h2{
+        font-size: 5vh;
+        margin-top: 0;
+        background-color: grey;
+     }
+    
+     .listbox1{
+        width: 25vw;
+        height: 30vh;
+        margin-right: 5vw;
+        margin-top: 3vh;
+        margin-left: 5vw;
+        margin-bottom: 100px;
+        background-color: rgb(162, 161, 161);
+        float: left;
+    }
+    
+    .listbox{
+        width: 25vw;
+        height: 30vh;
+        margin-right: 5vw;
+        margin-top: 3vh;
+        background-color: rgb(162, 161, 161);
+        float: left;
+    }
+    
+    .headerbox{
+        text-align: center;
+        text-align: left;
+        margin-left: 5vw;
+        width: 55vw;
+        height: 10vh;    
+    }
+    
+    .foodImage {
+        width: 25vw;
+        height: 30vh;
+        padding: 1px;
+    }
+    
+    .indentThis{
+        font-size: 5vh;
+        text-indent: -29.9vw
+    }
+    
