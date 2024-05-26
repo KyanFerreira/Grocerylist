@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Blocks 2nd Attempt</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!--Link to External systle sheet-->
+    <Style>
+    h3 { 
+        font-size: 4vh;
+        margin-left: 10px;
+        background-color: rgb(162, 161, 161);
+      }
+    </Style>
+  </head>
+  <body>
+    <main>
+      <header><h1>My organized grocery list</h1></header>
+      <section class="pantry">
+        <div class="headerbox" ><h2>Pantry Items</h2></div>
+        <div class="listbox1">
+            <h3>Canned Goods</h3>
+            <ul>
+                <li style="color: yellow">Corn</li> <!--Inline Styling-->
+                <li style="color: blue">Tuna</li> <!--Inline Styling-->
+                <li style="color: brown">Granola</li> <!--Inline Styling-->
+              </ul>
+        </div>
+        <div class="listbox">
+            <h3>Dry Goods</h3>
+            <ol>
+                <li>Spagetti</li>
+                <li>Cereal</li>
+                <li>Beans</li>
+              </ol>
+        </div>
+        <div class="listbox">
+            <img
+            class="foodImage"
+            src="/Images/pantry.jpg"
+          />
+        </div>
+        
+      </section>
+
+      <section class="freezer">
+        <div class="headerbox"><h2 class="indentThis" >Freezer Items</h2></div>
+        <div class="listbox1">
+            <h3>Frozen Food</h3>
+            <ul>
+              <li>Pizza</li>
+              <li>Chicken</li>
+              <li>Lasgana</li>
+            </ul>
+          </div>
+  
+          <div class="listbox">
+            <h3>Frozen Dessert</h3>
+            <ol>
+              <li>Popsicle</li>
+              <li>Ice Cream</li>
+              <li>Cheesecake</li>
+            </ol>
+          </div>
+          <div class="listbox">
+            <img
+              class="foodImage"
+              src="/Images/FrozenTreats.jpeg"
+            />
+          </div>
+    
+    </section>
+    </main>
+  </body>
+</html>
